@@ -156,8 +156,9 @@
     margin-top: 5%;
 }
 .social_media{
-    margin-top: 3%;
+    margin-top: 1%;
     display: flex;
+    margin-bottom: 2%;
 }
 .fb{
     display: flex;
@@ -235,3 +236,69 @@
     text-align: center;
     margin-top: 5%;
 }
+
+/* angle css*/
+/*
+body {
+    background-color: skyblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: light blue
+  }
+*/
+
+.container{
+    padding-top: 10%;
+    width: 100%;
+    height: 100vh;
+    
+}
+.container_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  h1.contact_head {
+    color: #333;
+    font-size: 30px;
+    color: #555;
+  }
+
+  p {
+    margin-top: 20px;
+    color: #555;
+  }
+
+  form {
+    max-width: 400px;
+    margin-top: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  input.newinput,textarea{
+    width: 350px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+/*
+  input[type="submit"] {
+    background-color: #224e99;
+    color: white;
+    cursor: pointer;
+    width: 350px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #224ca6;
+  }
+  */
